@@ -1370,43 +1370,58 @@ label span {
 
     .owl-nav {
         display: none;
-    }.videos-section .main-post-content {
+    }
+
+    .videos-section .main-post-content {
         max-height: 100%;
         max-width: 100%;
     }
+
     .main-thumbnail img {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         border-top-right-radius: 12px;
-    }    
-    .col-md-4 .video-thumbnail{
+    }
+
+    .col-md-4 .video-thumbnail {
         margin-bottom: 20px;
     }
-    .search-results .result-item{
+
+    .search-results .result-item {
         flex-flow: column;
     }
+
     .search-results .result-item img {
         width: 100%;
     }
-}.article-details {
+    .prisoner-stats .stat-card{
+        height: 100%;
+    }
+    .prisoner-stats .stat-title{
+        line-height: 1.2;
+        font-size: 20px;
+    }.prisoner-stats .stat-number {
+        font-size: 32px;}
+}
+
+.article-details {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
-  }
-  
-  .author-image {
+}
+
+.author-image {
     width: 50px;
     height: 50px;
     object-fit: cover;
-  }
-  
-  .author-name {
+}
+
+.author-name {
     font-size: 16px;
     font-weight: bold;
     color: var(--text-color);
-  }
-  
-  .article-category {
+}
+
+.article-category {
     font-size: 14px;
     color: var(--muted-text-color);
-  }
-  
+}
